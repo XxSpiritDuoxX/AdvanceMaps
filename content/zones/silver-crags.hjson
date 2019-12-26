@@ -1,31 +1,23 @@
-name: Silver Crags
-description: Salt and silver lie here.
+name: Sandfalls
+description: Found here is a Communications Tower,Destroy it before enemy reinforces from Desolate Rifts arrive to get reinforcements (Wave 50)
 loadout: basicFoundation
 startingItems: [
-  copper/200
-  lead/300
+  copper/500
+  lead/500
+  titanium/500
 ]
-conditionWave: 10
-launchPeriod: 10
 requirements: [
   {
     type: ZoneWave
-    zone: groundZero
-    wave: 40
-  }
-  {
-    type: Unlock
-    block: kiln
-  }
-  {
-    type: Unlock
-    block: solar-panel
+    zone: desolateRifts
+    wave: 20
   }
 ]
 resources: [
   copper
-  silver
   lead
-  coal
+  titanium
+  thorium
   sand
+  coal
 ]
